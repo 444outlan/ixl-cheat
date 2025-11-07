@@ -22,7 +22,7 @@
   const OCR_SPACE_API_KEY = null; // <-- put your key string here if desired
 
   // Tesseract CDN (uses browser-side JS)
-  const TESSERACT_CDN = 'const TESSERACT_CDN = 'https://444outlan.github.io/ixl-cheat/tesseract.min.js';
+  const TESSERACT_CDN = 'https://raw.githubusercontent.com/444outlan/ixl-cheat/main/tesseract.min.js';
   // --- STYLES & UI ---
   GM_addStyle(`
     #ixlHelperBtn { position: fixed; bottom: 15px; right: 15px; padding: 10px 14px; background: #111; color: #fff; border-radius: 9px; cursor: pointer; z-index: 2147483647; font-family: Arial, sans-serif; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
